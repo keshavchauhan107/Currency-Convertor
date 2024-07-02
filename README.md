@@ -20,13 +20,11 @@ To use the currency converter, follow these steps:
 4. Select the target currency from the dropdown list.
 5. Enter the amount to be converted in the input field.
 6. Click the "Convert" button to see the converted currency value.
-7. To switch the selected currencies, click the "Switch" button.
+7. To switch the selected currencies, click on the "Get Exchange rate".
 
 ## API Integration
 
-This currency converter utilizes a real-time currency conversion API to fetch the latest exchange rates. The API used in this project is [Exchange Rate API](https://app.exchangerate-api.com/ "Exchange Rate API"), which provides accurate and up-to-date currency conversion data. To integrate a different API, you can modify the JavaScript code in `script.js` file to make requests and handle the response according to the API documentation.
-
-Please note that you may need to sign up for an API key and update the code with your API key if required by the chosen API.
+This currency converter utilizes a real-time currency conversion API to fetch the latest exchange rates. The API used in this project is [Exchange Rate API]([https://app.exchangerate-api.com/ "Exchange Rate API"](https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies)), which provides accurate and up-to-date currency conversion data. To integrate a different API, you can modify the JavaScript code in `app.js` file to make requests and handle the response according to the API documentation.
 
 ## Technologies Used
 
